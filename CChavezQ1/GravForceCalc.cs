@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CChavezQ1
+﻿namespace CChavezQ1
 {
     class GravForceCalc
     {
@@ -39,6 +33,7 @@ namespace CChavezQ1
             objName2 = _objName2;
         }
 
+        //TODO: Call calc from the set mass methods. RJG
         public void SetObjMass2(double _objMass2)
         {
             objMass2 = _objMass2;
@@ -77,6 +72,7 @@ namespace CChavezQ1
         {
             force = GRAVCONST * ((objMass1 * objMass2) / objDist);
         }
+        //TODO: This should not be part of the GravForceCalc class. It should be in main or a utility class. RJG
         //  Do another method
         public static bool DoAnother()
         {

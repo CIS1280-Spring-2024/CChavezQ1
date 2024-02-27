@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace CChavezQ1
+﻿namespace CChavezQ1
 {
     internal class Program
     {
@@ -53,6 +51,7 @@ namespace CChavezQ1
             Goodbye();
         }
 
+        //TOOD: Correct! Well stated. RJG
         // basic main methods could have been build into the calulator class but this stuff isnt the job of a calulation class so i left it in main. 
         static void DisplayHeader()
         {
